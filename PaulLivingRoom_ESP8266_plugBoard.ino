@@ -20,9 +20,9 @@ WiFiClient client;
 #define HEARTBEAT_INTERVAL 300000 // 5 Minutes
 
 #define BOARD_LED     2
-#define GPIO_OUT_D0   16
-#define GPIO_OUT_D1   5
-#define GPIO_OUT_D2   4 
+#define GPIO_OUT_D0   16	//LIGHT     - "Alexa turn On the Light" or "Alexa turn On the Light"
+#define GPIO_OUT_D1   5		//Reserve	
+#define GPIO_OUT_D2   4 	//FAN		- "Alexa turn On the Fan" or "Alexa turn On the Fan"
 
 uint64_t heartbeatTimestamp = 0;
 bool isConnected = false;
